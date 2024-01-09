@@ -4,6 +4,8 @@ import { fetchQuizQuestions } from './API';
 import QuestionCard from './components/QuestionCards';
 //types
 import { QuestionState, Difficulty } from './API';
+//styles
+import { GlobalStyle, Wrapper } from './App.styles';
 
 export type AnswerObject = {
   question: string;
@@ -73,8 +75,11 @@ const nextQuestion = () => {;
 
 
   return (
-    <div className="App">
-      <h1>REACT QUIZ</h1>
+    <>
+      <GlobalStyle /> 
+      
+    <Wrapper>
+      <h1>Fontain's Anime Quiz Show!</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startTrivia}>
             Start
@@ -100,7 +105,8 @@ const nextQuestion = () => {;
             Next Question
           </button>
         ) : null}
-      </div>
+      </Wrapper>
+      </>
   );
 };
 
