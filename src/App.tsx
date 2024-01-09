@@ -79,7 +79,7 @@ const nextQuestion = () => {;
       <GlobalStyle /> 
       
     <Wrapper>
-      <h1>Fontain's Anime Quiz Show!</h1>
+      <h1>Fontain's POP Quiz Show!</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startTrivia}>
             Start
