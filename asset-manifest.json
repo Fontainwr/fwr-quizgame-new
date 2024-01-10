@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/fwr-quizgame-new/static/js/main.6e191dd9.js",
+    "static/media/nattu-adnan-unsplash.jpg": "/fwr-quizgame-new/static/media/nattu-adnan-unsplash.dca402a5ce8bb534cdf7.jpg",
+    "index.html": "/fwr-quizgame-new/index.html",
+    "main.6e191dd9.js.map": "/fwr-quizgame-new/static/js/main.6e191dd9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6e191dd9.js"
+  ]
+}
